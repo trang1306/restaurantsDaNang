@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -15,45 +16,202 @@
 <body>
     <style>
         .container {
-            margin-top: 10px;
-            margin-left: 10px;
-            margin-right: 10px;
+            margin-left: 20px;
+            margin-right: 20px;
         }
 
         .text-header {
             font-family: Cursive, monospace;
             margin: 0px;
+            background-color: #94c2f3;
+        }
+
+        h4 {
+            font-family: Cursive, monospace;
+            background-color: #b2b9bf;
         }
 
         .img {
             width: 100%;
-            height: auto;
+            height: 80%;
+        }
+
+        .body1 {
+            margin-left: 10%;
+            margin-right: 10%;
         }
 
         .text-body1 {
             font-family: Arial;
-            padding-top: 14px;
+            margin-top: -4%;
+            margin-bottom: 3%;
         }
     </style>
     <div class="container-fluid mt-3">
         <header>
-            <h2 class="bg-info text-black text-center text-header">ステーキレストランの⼀覧表</h2>
+            <h2 class="text-black text-center text-header"><b>ステーキレストランの⼀覧表</b></h2>
         </header>
-        <h4 class="bg-dark text-white text-header">レストラン名：Olivia’s Prime Steakhouse</h4>
-        <div class="row"> <!-- 2 classes nãy dư nên nó phá đám ;v =))-->
-            <div class="col-xs-4 col-sm-6 col-md-4 left mt-3"><img class="img rounded" src="./images/olivia1.png" /></div>
-            <div class="col-xs-4 col-sm-6 col-md-4 center mt-3"><img class="img rounded" src="./images/olivia2.png" /></div>
-            <div class="col-xs-4 col-sm-6 col-md-4 right mt-3"><img class="img rounded" src="./images/olivia3.png" /></div>
+        <!-- Olivia’s Prime Steakhouse -->
+        <h4 class="text-black">レストラン名：Olivia’s Prime Steakhouse</h4>
+        <div class="body1">
+            <div class="row">
+                <div class="col-xs-4 col-sm-6 col-md-4 mt-2"><img class="img rounded" src="./images/olivia1.png" />
+                </div>
+                <div class="col-xs-4 col-sm-6 col-md-4 mt-2"><img class="img rounded" src="./images/olivia2.png" />
+                </div>
+                <div class="col-xs-4 col-sm-6 col-md-4 mt-2"><img class="img rounded" src="./images/olivia3.png" />
+                </div>
+            </div>
+            <div class="text-body1">
+                <p>住所：505 đường Trần Hưng Đạo, phường An Hải Tây, quận Sơn Trà, Đà Nẵng</p>
+                <p>電話番語：090 816 33 52</p>
+                <a
+                    href="https://www.tripadvisor.com.vn/Restaurant_Review-g298085-d12254273-Reviews-Olivia_s_Prime_Steakhouse-Da_Nang.html"><span
+                        class="bi bi-arrow-right-circle-fill"></span> URL
+                    Tripadvisor: Olivia’s Prime Steakhouse</a>
+            </div>
         </div>
-        <div class="text-body1">
-            <p>住所：505 đường Trần Hưng Đạo, phường An Hải Tây, quận Sơn Trà, Đà Nẵng</p>
-            <p>電話番語：090 816 33 52</p>
-            <a
-                href="https://www.tripadvisor.com.vn/Restaurant_Review-g298085-d12254273-Reviews-Olivia_s_Prime_Steakhouse-Da_Nang.html">URL
-                Tripadvisor: Olivia’s Prime Steakhouse</a>
+        <!-- Red Sky Bar & Restaurant-->
+        <h4 class="text-black">レストラン名：Red Sky Bar & Restaurant</h4>
+        <div class="body1">
+            <div class="row">
+                <div class="col-xs-4 col-sm-6 col-md-4 mt-2"><img class="img rounded" src="./images/redsky1.png" />
+                </div>
+                <div class="col-xs-4 col-sm-6 col-md-4 mt-2"><img class="img rounded" src="./images/redsky2.png" />
+                </div>
+                <div class="col-xs-4 col-sm-6 col-md-4 mt-2"><img class="img rounded" src="./images/redsky3.png" />
+                </div>
+            </div>
+            <div class="text-body1">
+                <p>住所：248 đường Trần Phú, quận Hải Châu, Đà Nẵng</p>
+                <p>電話番語：0236 3894 895</p>
+                <a
+                    href="https://www.tripadvisor.com.vn/Restaurant_Review-g298085-d1817077-Reviews-Red_Sky_Bar_Restaurant-Da_Nang.html"><span
+                        class="bi bi-arrow-right-circle-fill"></span> URL
+                    Tripadvisor: Red Sky Bar & Restaurant</a>
+            </div>
+        </div>
+        <!-- Bistecca -->
+        <h4 class="text-black">レストラン名：Bistecca</h4>
+        <div class="body1">
+            <div class="row">
+                <div class="col-xs-4 col-sm-6 col-md-4 mt-2"><img class="img rounded" src="./images/bistecca2.png" />
+                </div>
+                <div class="col-xs-4 col-sm-6 col-md-4 mt-2"><img class="img rounded" src="./images/bistecca1.png" />
+                </div>
+                <div class="col-xs-4 col-sm-6 col-md-4 mt-2"><img class="img rounded" src="./images/bistecca3.png" />
+                </div>
+            </div>
+            <div class="text-body1">
+                <p>住所：20 đường Đống Đa, phường Thuận Phước, quận Hải Châu, Đà Nẵng (New Orient Hotel)</p>
+                <p>電話番語：0236 3828 828</p>
+                <a
+                    href="https://www.tripadvisor.com.vn/Restaurant_Review-g298085-d13236259-Reviews-Bistecca_Restaurant_Danang-Da_Nang.html"><span
+                        class="bi bi-arrow-right-circle-fill"></span> URL
+                    Tripadvisor: Bistecca</a>
+            </div>
+        </div>
+        <!-- Chicland Lounge -->
+        <h4 class="text-black">レストラン名：Chicland Lounge</h4>
+        <div class="body1">
+            <div class="row">
+                <div class="col-xs-4 col-sm-6 col-md-4 mt-2"><img class="img rounded" src="./images/chic1.png" />
+                </div>
+                <div class="col-xs-4 col-sm-6 col-md-4 mt-2"><img class="img rounded" src="./images/chic2.png" />
+                </div>
+                <div class="col-xs-4 col-sm-6 col-md-4 mt-2"><img class="img rounded" src="./images/chic3.png" />
+                </div>
+            </div>
+            <div class="text-body1">
+                <p>住所：210 đường Võ Nguyên Giáp, Phước Mỹ, Đà Nẵng (Chicland Hotel)</p>
+                <p>電話番語：0236 2232 222</p>
+                <a
+                    href="https://www.tripadvisor.com.vn/Restaurant_Review-g17786366-d19093493-Reviews-Chicland_Lounge-Son_Tra_Peninsula_Da_Nang.html"><span
+                        class="bi bi-arrow-right-circle-fill"></span> URL
+                    Tripadvisor: Chicland Lounge</a>
+            </div>
+        </div>
+        <!-- Horizon Bar-->
+        <h4 class="text-black">レストラン名：Horizon Bar</h4>
+        <div class="body1">
+            <div class="row">
+                <div class="col-xs-4 col-sm-6 col-md-4 mt-2"><img class="img rounded" src="./images/horizon1.png" />
+                </div>
+                <div class="col-xs-4 col-sm-6 col-md-4 mt-2"><img class="img rounded" src="./images/horizon2.png" />
+                </div>
+                <div class="col-xs-4 col-sm-6 col-md-4 mt-2"><img class="img rounded" src="./images/horizon3.png" />
+                </div>
+            </div>
+            <div class="text-body1">
+                <p>住所：118-120 đường Võ Nguyên Giáp Phước Mỹ, Sơn Trà, Đà Nẵng</p>
+                <p>電話番語：0236 3997 979</p>
+                <a
+                    href="https://www.tripadvisor.com.vn/Restaurant_Review-g17786366-d19093493-Reviews-Chicland_Lounge-Son_Tra_Peninsula_Da_Nang.html"><span
+                        class="bi bi-arrow-right-circle-fill"></span> URL
+                    Tripadvisor: Horizon Bar</a>
+            </div>
+        </div>
+        <!-- Sky View Restaurant-->
+        <h4 class="text-black">レストラン名：Sky View Restaurant</h4>
+        <div class="body1">
+            <div class="row">
+                <div class="col-xs-4 col-sm-6 col-md-4 mt-2"><img class="img rounded" src="./images/sky1.png" />
+                </div>
+                <div class="col-xs-4 col-sm-6 col-md-4 mt-2"><img class="img rounded" src="./images/sky2.png" />
+                </div>
+                <div class="col-xs-4 col-sm-6 col-md-4 mt-2"><img class="img rounded" src="./images/sky3.png" />
+                </div>
+            </div>
+            <div class="text-body1">
+                <p>住所：216 đường Võ Nguyên Giáp, Phường Phước Mỹ, Quận Sơn Trà, Đà Nẵng (Tầng 20, Belle Maison Parosand Hotel)</p>
+                <p>電話番語：0236 3928 688</p>
+                <a
+                    href="https://www.tripadvisor.com.vn/Restaurant_Review-g298085-d12968948-Reviews-Sky_View_Restaurant-Da_Nang.html"><span
+                        class="bi bi-arrow-right-circle-fill"></span> URL
+                    Tripadvisor: Sky View Restaurant</a>
+            </div>
+        </div>
+        <!-- Brilliant Top Bar-->
+        <h4 class="text-black">レストラン名：Brilliant Top Bar</h4>
+        <div class="body1">
+            <div class="row">
+                <div class="col-xs-4 col-sm-6 col-md-4 mt-2"><img class="img rounded" src="./images/briliant1.png" />
+                </div>
+                <div class="col-xs-4 col-sm-6 col-md-4 mt-2"><img class="img rounded" src="./images/briliant2.png" />
+                </div>
+                <div class="col-xs-4 col-sm-6 col-md-4 mt-2"><img class="img rounded" src="./images/briliant3.png" />
+                </div>
+            </div>
+            <div class="text-body1">
+                <p>住所：162 đường Bạch Đằng, quận Hải Châu, Đà Nẵng (Brilliant, Hotel)</p>
+                <p>電話番語：0236 3222 999</p>
+                <a
+                    href="https://www.tripadvisor.com.vn/Restaurant_Review-g298085-d11962134-Reviews-Brilliant_Top_Bar-Da_Nang.html"><span
+                        class="bi bi-arrow-right-circle-fill"></span> URL
+                    Tripadvisor: Brilliant Top Bar</a>
+            </div>
+        </div>
+        <!-- Retro Kitchen and Bar-->
+        <h4 class="text-black">レストラン名：Retro Kitchen and Bar</h4>
+        <div class="body1">
+            <div class="row">
+                <div class="col-xs-4 col-sm-6 col-md-4 mt-2"><img class="img rounded" src="./images/retro2.png" />
+                </div>
+                <div class="col-xs-4 col-sm-6 col-md-4 mt-2"><img class="img rounded" src="./images/retro1.png" />
+                </div>
+                <div class="col-xs-4 col-sm-6 col-md-4 mt-2"><img class="img rounded" src="./images/retro3.png" />
+                </div>
+            </div>
+            <div class="text-body1">
+                <p>住所：85-87 đường Trần Phú, quận Hải Châu, Đà Nẵng</p>
+                <p>電話番語：090 999 85 87</p>
+                <a
+                    href="https://www.tripadvisor.com.vn/Restaurant_Review-g298085-d7972145-Reviews-Retro_Kitchen_and_Bar-Da_Nang.html"><span
+                        class="bi bi-arrow-right-circle-fill"></span> URL
+                    Tripadvisor: Retro Kitchen and Bar</a>
+            </div>
         </div>
     </div>
-
 </body>
 
 </html>
